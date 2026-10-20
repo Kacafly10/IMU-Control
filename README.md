@@ -9,7 +9,10 @@
 - USB C + ***Wireless*** connectivity
 
 ### Choice of MCU
-nRF54l15 - FPU + Low latency Wirelesses
+nRF54l15 - FPU + Low latency Wirelesses.
+
+### Code
+nRF Connect.
 
 ### Differece to or from a Wiimote
 uhh
