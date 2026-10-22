@@ -2931,7 +2931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 174.9552 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3012,7 +3012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 196.5452 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3161,7 +3161,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000nF"
+		(property "Value" "100nF"
 			(at 128.27 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3172,7 +3172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 125.4252 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3481,7 +3481,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000nF"
+		(property "Value" "10uF"
 			(at 114.3 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3812,6 +3812,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 173.99 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c124c92-cd4a-4026-a95e-748d82514e3e")
+		(property "Reference" "#PWR016"
+			(at 173.99 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90999b6a-c067-4731-a5db-9dc1b5842baf")
+		)
+		(instances
+			(project "imu-gc"
+				(path "/34e09bf3-607e-4d30-9b2e-53b693860bcd"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 180.34 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -3911,7 +3989,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000nF"
+		(property "Value" "100nF"
 			(at 86.36 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3922,7 +4000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 83.5152 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3993,7 +4071,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000nF"
+		(property "Value" "100nF"
 			(at 100.33 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4004,7 +4082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 97.4852 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4241,7 +4319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 179.07 145.288 90)
 			(hide yes)
 			(show_name no)
@@ -4559,7 +4637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 182.372 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -4862,7 +4940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 176.53 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4943,7 +5021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 207.9752 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5169,7 +5247,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000nF"
+		(property "Value" "100nF"
 			(at 142.24 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5180,7 +5258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 139.3952 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5893,7 +5971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 219.4052 62.23 0)
 			(hide yes)
 			(show_name no)
