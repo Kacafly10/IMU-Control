@@ -668,13 +668,17 @@
         "uuid": "34e09bf3-607e-4d30-9b2e-53b693860bcd"
       }
     ],
-    "used_designators": "#PWR1-16,C1-13,FB1,L1-4,R1-2,U1,Y1-3",
+    "used_designators": "#PWR1-30,C1-18,FB1,J1-2,L1-4,P1,R1-7,TH1,U1-3,Y1-3",
     "variants": []
   },
   "sheets": [
     [
       "34e09bf3-607e-4d30-9b2e-53b693860bcd",
       "imu-gc"
+    ],
+    [
+      "a06e4be3-7758-4db7-896e-3c20d688db1f",
+      "Untitled Sheet"
     ]
   ],
   "text_variables": {},
