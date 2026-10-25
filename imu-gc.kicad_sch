@@ -1136,6 +1136,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
@@ -5154,7 +5343,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 72.39) (xy 102.87 72.39)
+			(xy 113.03 72.39) (xy 99.06 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5364,7 +5553,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 80.01) (xy 102.87 80.01)
+			(xy 113.03 80.01) (xy 99.06 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5961,16 +6150,6 @@
 			(type default)
 		)
 		(uuid "b0ace176-da35-4697-aea3-11945a6a22d4")
-	)
-	(wire
-		(pts
-			(xy 107.95 76.2) (xy 107.95 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b20f1561-13b8-49d1-b725-8993fd3c0034")
 	)
 	(wire
 		(pts
@@ -7783,7 +7962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ST:IND_TAIYO_LBM2016_TAY"
+		(property "Footprint" "ST:APH201610C2R2MP01"
 			(at 81.28 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -11425,84 +11604,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 107.95 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b36b23b8-db3e-4bfe-948a-647435671ff1")
-		(property "Reference" "#PWR06"
-			(at 107.95 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba7cd9d4-be63-4893-bb70-8eaefe443c7f")
-		)
-		(instances
-			(project "imu-gc"
-				(path "/34e09bf3-607e-4d30-9b2e-53b693860bcd"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 195.58 151.13 180)
 		(unit 1)
@@ -12866,8 +12967,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND24")
-		(at 102.87 76.2 90)
+		(lib_id "Device:Crystal")
+		(at 99.06 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12878,29 +12979,29 @@
 		(fields_autoplaced yes)
 		(uuid "f9aefd5c-7b93-405c-9da4-2090abfe631c")
 		(property "Reference" "Y2"
-			(at 97.79 74.9299 90)
+			(at 102.87 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "32.768khz"
-			(at 97.79 77.4699 90)
+			(at 102.87 77.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
-			(at 102.87 76.2 0)
+		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
+			(at 99.06 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12911,7 +13012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 76.2 0)
+			(at 99.06 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12921,8 +13022,8 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 102.87 76.2 0)
+		(property "Description" "Two pin crystal"
+			(at 99.06 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12933,7 +13034,7 @@
 			)
 		)
 		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
-			(at 115.57 76.2 0)
+			(at 111.76 76.2 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12944,7 +13045,7 @@
 			)
 		)
 		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
-			(at 118.11 76.2 0)
+			(at 114.3 76.2 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12954,14 +13055,8 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "4c2827d1-ce88-4a3e-b219-3daf661a3954")
-		)
 		(pin "2"
 			(uuid "1be32b0f-1729-48dc-ad7d-61f5865d6c0f")
-		)
-		(pin "4"
-			(uuid "db789811-5b08-4f55-aace-1a23d5e24482")
 		)
 		(pin "1"
 			(uuid "30ada410-12a8-4cb1-9ec0-0ff70ef90113")
