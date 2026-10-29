@@ -4988,6 +4988,12 @@
 		(uuid "f3d265fd-5d95-4e8d-8c8d-49d281a9e64e")
 	)
 	(junction
+		(at 106.68 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5081130-5f0f-45fd-bed9-e092dd68a09d")
+	)
+	(junction
 		(at 96.52 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5380,6 +5386,16 @@
 			(type default)
 		)
 		(uuid "313fcbcd-41be-43d1-886b-c39559645d49")
+	)
+	(wire
+		(pts
+			(xy 102.87 121.92) (xy 106.68 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3359a0ce-99b9-417c-a713-f3f12dfa1d69")
 	)
 	(wire
 		(pts
@@ -6073,6 +6089,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 121.92) (xy 106.68 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a066ac67-9211-430b-b071-d1fdf2c51846")
+	)
+	(wire
+		(pts
 			(xy 180.34 100.33) (xy 181.61 100.33)
 		)
 		(stroke
@@ -6100,6 +6126,16 @@
 			(type default)
 		)
 		(uuid "a820a9b4-0f19-4114-a5e5-97e20e41b910")
+	)
+	(wire
+		(pts
+			(xy 95.25 130.81) (xy 95.25 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9172194-6e93-443e-beb5-8fd76320f081")
 	)
 	(wire
 		(pts
@@ -6200,6 +6236,16 @@
 			(type default)
 		)
 		(uuid "b57e1f0b-6ab1-4cbe-a5a8-727ba28ce0a0")
+	)
+	(wire
+		(pts
+			(xy 106.68 130.81) (xy 114.3 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7067c32-7084-41c8-a841-ef11fd314cc9")
 	)
 	(wire
 		(pts
@@ -6330,6 +6376,16 @@
 			(type default)
 		)
 		(uuid "ce557415-283f-4c54-becb-d3f8712104d3")
+	)
+	(wire
+		(pts
+			(xy 100.33 130.81) (xy 106.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf14c9d6-ebce-48e5-9832-59d7b97ddb01")
 	)
 	(wire
 		(pts
@@ -6840,6 +6896,16 @@
 			(justify right bottom)
 		)
 		(uuid "8c50ffc6-c116-4f42-8353-c1df6fa5dd73")
+	)
+	(label "3v3"
+		(at 102.87 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b30ea40-e8c8-4db7-9bd7-dcab8467c59e")
 	)
 	(label "USB_D+"
 		(at 264.16 48.26 180)
@@ -7440,6 +7506,85 @@
 			(project "imu-gc"
 				(path "/34e09bf3-607e-4d30-9b2e-53b693860bcd"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 95.25 125.73 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e88816c-35ad-4979-a535-32f654e0abdd")
+		(property "Reference" "J9"
+			(at 96.52 125.0949 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pin"
+			(at 96.52 127.6349 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 95.25 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 95.25 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e003d152-8474-4768-bc50-cb7ac90deb93")
+		)
+		(instances
+			(project "imu-gc"
+				(path "/34e09bf3-607e-4d30-9b2e-53b693860bcd"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11189,6 +11334,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 100.33 125.73 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97191237-1779-4834-a94f-845d33d5e0a0")
+		(property "Reference" "J10"
+			(at 101.6 125.0949 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pin"
+			(at 101.6 127.6349 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 100.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 100.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88cf9480-d302-4c5e-9a92-4c79ecfc750f")
+		)
+		(instances
+			(project "imu-gc"
+				(path "/34e09bf3-607e-4d30-9b2e-53b693860bcd"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 176.53 59.69 0)
 		(unit 1)
@@ -11676,6 +11900,88 @@
 			(project "imu-gc"
 				(path "/34e09bf3-607e-4d30-9b2e-53b693860bcd"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bddd5778-827e-42ee-b047-19a1be3a2045")
+		(property "Reference" "R5"
+			(at 109.22 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 109.22 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 104.902 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2b8306a-5e98-4f61-900a-d75cecb34241")
+		)
+		(pin "2"
+			(uuid "89a32330-a89f-4333-af19-eec7d89f3b9e")
+		)
+		(instances
+			(project "imu-gc"
+				(path "/34e09bf3-607e-4d30-9b2e-53b693860bcd"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12559,6 +12865,84 @@
 			(project "imu-gc"
 				(path "/34e09bf3-607e-4d30-9b2e-53b693860bcd"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3f9ec02-82e3-4429-81d6-40e0632cf55e")
+		(property "Reference" "#PWR06"
+			(at 95.25 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce6519b2-7a35-4ce6-8a7c-16bc1b8692c0")
+		)
+		(instances
+			(project "imu-gc"
+				(path "/34e09bf3-607e-4d30-9b2e-53b693860bcd"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
