@@ -11,8 +11,21 @@
 ### Choice of MCU
 nRF54l15 - FPU + Low latency Wirelesses.
 
+### PCB
+
+
+### 3D Design
+![Main](asset/main.png)
+`Main`
+![Main](asset/lid.png)
+`Lid`
+
 ### Code
-nRF Connect.
+nRF Connect SDK Using C/C++. I'm not confident in my Cxxxx skills so IDK. I chose this because it is native for nRF MCU.
 
 ### Differece to or from a Wiimote
 uhh
+
+Connects seamlessly to any BLE HoG(basically Bluetooth for peripheral) compatible device.
+Open
+Modern
