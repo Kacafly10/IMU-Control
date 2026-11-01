@@ -1,0 +1,10 @@
+identifier: Iiiriomote/nrf54l15/cpuflpr/xip
+name: Smol imu board
+vendor: Kacaflys-systems
+arch: riscv
+toolchain:
+  - zephyr
+sysbuild: true
+ram: 96
+flash: 664
+supported: []

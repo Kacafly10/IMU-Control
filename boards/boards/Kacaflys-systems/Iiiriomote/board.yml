@@ -1,0 +1,43 @@
+board:
+  name: Iiiriomote
+  full_name: Iiiriomote
+  vendor: Kacaflys-systems
+  socs:
+  - name: nrf54l15
+    variants:
+    - name: xip
+      cpucluster: cpuflpr
+runners:
+  run_once:
+    '--recover':
+      - runners:
+          - nrfjprog
+          - nrfutil
+        run: first
+        groups:
+          - boards:
+              - Iiiriomote/nrf54l15/cpuapp
+              - Iiiriomote/nrf54l15/cpuflpr
+              - Iiiriomote/nrf54l15/cpuflpr/xip
+    '--erase':
+      - runners:
+          - nrfjprog
+          - jlink
+          - nrfutil
+        run: first
+        groups:
+          - boards:
+              - Iiiriomote/nrf54l15/cpuapp
+              - Iiiriomote/nrf54l15/cpuflpr
+              - Iiiriomote/nrf54l15/cpuflpr/xip
+    '--reset':
+      - runners:
+          - nrfjprog
+          - jlink
+          - nrfutil
+        run: last
+        groups:
+          - boards:
+              - Iiiriomote/nrf54l15/cpuapp
+              - Iiiriomote/nrf54l15/cpuflpr
+              - Iiiriomote/nrf54l15/cpuflpr/xip

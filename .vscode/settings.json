@@ -55,5 +55,13 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "nrf-connect.applications": [
+    "${workspaceFolder}\\fw"
+  ],
+  "clangd.arguments": [
+    "--compile-commands-dir=E:/blinky/build/blinky/compile_commands.json",
+    "--query-driver=E:/ncs/toolchains/4f5b6ad6dd/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe",
+    "--background-index"
+  ]
 }
