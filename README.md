@@ -55,6 +55,8 @@ nRF Connect SDK Using C/C++. I'm not confident in my Cxxxx skills so IDK. I chos
 
 Using standard zephyr sensor & RTIO libs + a custom(?) nRF HoG Profile.
 
+repo: [fw](https://github.com/Kacafly10/fw_iiiriomote-abracadibri)
+
 ### Differece to or from a Wiimote
 
 uhh
