@@ -61,7 +61,10 @@
   ],
   "clangd.arguments": [
     "--compile-commands-dir=E:/blinky/build/blinky/compile_commands.json",
-    "--query-driver=E:/ncs/toolchains/4f5b6ad6dd/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe",
-    "--background-index"
-  ]
+    "--background-index",
+    "--completion-style=detailed",
+    "--header-insertion=never",
+    "--query-driver=E:/ncs/v3.4.1/**/*"
+  ],
+  "terminal.integrated.defaultProfile.windows": "Zephyr IDE Terminal"
 }
