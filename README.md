@@ -30,10 +30,11 @@ nRF54l15 - FPU + Low latency Wirelesses.
 
 ### 3D Design
 
-![Main](img/1.png)
+![1](img/1.png)
 `Main`
-![Main](img/2.png)
+![2](img/2.png)
 `Lid`
+![Assembly](img/assembly.png)
 
 [Onshape](https://cad.onshape.com/documents/98a41b9541d161cd48b5abd8/w/a6aa8765be7e5cd60379758f/e/afb3d6cf83ac2bb12e1dc333)
 
